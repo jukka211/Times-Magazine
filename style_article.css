@@ -1,0 +1,507 @@
+.chiffres {
+  text-align: justify;
+  position: fixed;
+  bottom: 0;
+}
+.userInfo {
+  width: 8%;
+  text-align: justify;
+  
+  margin-left: 20px;
+  font-size: 8pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  line-height: 10pt;
+  z-index: 0;
+}
+
+
+
+
+.clock {
+  visibility: hidden;
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: white;
+  width: auto;
+  height: auto;
+ line-height: 16pt;
+ padding-left: 4px;
+ padding-right: 10px;
+ 
+  margin-left: 20px;
+      z-index: 999;
+      font-size: 12pt;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+
+#tracker-container {
+  
+  line-height: 16pt;
+ 
+  
+  background-color:transparent;
+  color: black;
+  
+  
+  padding-right: 4px;
+  margin-left: 20px;
+      z-index: 0;
+      font-size: 8pt;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.t1 {
+  padding: 0 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  }
+button{
+  background-color: white;
+  border: solid 0.5px;
+  
+  right:20px;
+  
+  
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28pt;
+  line-height: 26pt;
+  text-transform: uppercase;
+  color: blue;
+  padding-left: 30%;
+  padding-right: 28px;
+  letter-spacing: -1.7px;
+  
+}
+h2:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.footnote{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10pt;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  text-transform: uppercase;
+  width: fit-content;
+  padding-left: 10px;
+  transition: color 0.5s;
+  color: black;
+  letter-spacing: -1px;
+  transition: flex 1000ms;
+ 
+}
+h1:hover{
+  
+  transition: color 0.5s;
+}
+
+.tag1, .tag2,.tag3,.tag4,.tag5,.tag6,.tag7,.tag8,.tag9, .tag10,.tag11, .tag12,.tag13{
+  color: black;
+  transition: color 0.1s;
+  
+ 
+}
+.tag1:hover{
+  color: blue;
+}
+.tag2:hover{
+  color:chartreuse;
+}
+.tag3:hover{
+  color:cyan;
+}
+.tag4:hover{
+  color:deeppink;
+}
+.tag5:hover{
+  color: blue;
+}
+.tag6:hover{
+  color: blue;
+}
+.tag7:hover{
+  color: blue;
+}
+.tag8:hover{
+  color: blue;
+}
+.tag9:hover{
+  color: blue;
+}
+.tag10:hover{
+  color: blue;
+}
+.tag11:hover{
+  color: blue;
+}
+.tag12:hover{
+  color: blue;
+}
+.tag13:hover{
+  color: blue;
+}
+
+
+
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 14pt;
+  letter-spacing: -0.5px;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+p {
+  padding: 0 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  
+  white-space: normal;
+}
+
+.text{
+  
+ visibility: hidden;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 10px;
+}
+
+@keyframes marquee {
+  100% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.upline-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.upline {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 50s linear infinite;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+ }
+ .article {
+  margin-top: 200px;
+  padding-left: 30%;
+  padding-right: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 16pt;
+ }
+ .p1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 14pt;
+  display:inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  top:0;
+  white-space: normal;
+  width: 50%;
+  padding-right: 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+
+.p2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 16pt;
+  display: inline-block;
+  white-space: normal;
+  width: 100%;
+}
+  h3 {
+    visibility: hidden;
+    position: absolute;}
+    .textMobile{
+      visibility: hidden;
+    position: absolute;
+    }
+body {
+  overflow: hidden;
+}
+
+.position-trbl-0 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+   
+    
+}  
+
+
+.overflow-hidden {
+   overflow: hidden;
+   padding: 0;
+   
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 100%;
+  width: auto;
+  padding: 0;
+  scrollbar-width: thin;
+  
+}
+
+.col{
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 0;
+  overflow: hidden;
+  flex: 1.23;
+  width: auto;
+}
+.col2 {
+  flex: 1;
+  height: 99vh;
+  padding:  0 0px;
+  overflow: hidden;
+ 
+  display: flex;
+flex-direction: column;
+  font-size: 20pt;
+}
+
+
+
+
+
+.col3 {
+  flex: 1;
+  height: 100%;
+  padding: 0 0px;
+  overflow: hidden;
+   z-index: 999;
+}
+
+.col4 {
+  flex: 6;
+  height: 100%;
+  
+  padding: 0 0px;
+  overflow: hidden;
+  width: max-content;
+}
+
+.col5 {
+  flex: 1;
+  height: 100%;
+  padding-right: 20px;
+
+  overflow: hidden;
+}
+.col, .col2, .col3, .col4, .col5 {
+  transition: flex 500ms;
+}
+.col-inner, .col-inner2, .col-inner3, .col-inner4, .col-inner5 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  scrollbar-width: 0;
+  scrollbar-color: white;
+  border: solid 0.5px rgb(134, 134, 134);
+  box-sizing: content-box;
+  transition: flex 500ms;
+  
+ 
+  
+}
+
+.col-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative; /* Set position to relative */
+  overflow-x:auto;
+  overflow-y: auto;
+}
+
+.col-inner3 {
+  flex: 5;
+  z-index: 999;
+  overflow-y: auto;
+  box-sizing: content-box;
+  height: 100%;
+}
+.col-inner2{
+  
+  overflow-x: none;
+  overflow-y: auto;
+  box-sizing: content-box;
+  display: inline-block;
+  white-space:nowrap;
+ 
+  font-size: 0;
+ 
+  
+ }
+ .col-inner22{
+  height: 100%;
+  width:100%;
+  overflow-x: none;
+  overflow-y: auto;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  
+  max-width: 100%; /* Make the content 100% of the page width */
+  border: solid 0.5px rgb(134, 134, 134);
+ 
+  padding-right: 10px;
+  padding-left: 10px;
+  
+ 
+  
+ }
+ .col-inner2{
+  height: 100%;
+  width:100%;
+padding-right: 10px;
+margin-right: 10px;}
+
+  .overflow-auto {
+    overflow: hidden;
+    padding: 0;
+  }
+  
+
+  
+
+    @media only screen and (max-width: 1000px) {
+      
+    .position-trbl-0 {
+      
+      width: auto;
+      overflow-y: scroll;
+  }  
+
+    body{
+      width: auto;
+    height: 100%;
+    overflow-y: scroll;
+   
+    }
+  .row {
+    overflow-y: scroll;
+    width: auto;
+    height:fit-content;
+    display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .col{
+    flex:1;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .col-inner2{
+    margin-right: 0;
+    padding-right: 0;
+    height:50%;
+    width:100%;
+  }
+  .col2{
+    flex:2;
+    height:50%;
+    width: 100%;
+  }
+  .col3{
+    flex:2;
+    width: auto;
+    overflow-y: scroll;
+  }
+  .col4 {
+    flex: 3;
+    width: 100%;
+  }
+  .col5{
+    flex:1;
+    width: 100%;
+  }
+  h1{
+    visibility: hidden;
+    position: absolute;
+  }
+  h3 {
+    visibility: visible;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  text-transform: uppercase;
+  width: fit-content;
+  
+  white-space: nowrap;
+  
+  }
+  .textMobile{
+    visibility: visible;
+  position: relative;
+  }
+  .text{
+    visibility: hidden;
+    position: absolute;
+  }
+ .upline{
+  text-align: justify;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+ .col-inner, .col-inner2, .col-inner3, .col-inner4, .col-inner5 {
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+  p{
+    width: auto;
+  }
+  .container-fluid{
+    padding: 0;
+    width: auto;
+  }
+  }
+  

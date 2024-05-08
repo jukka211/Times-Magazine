@@ -1,0 +1,709 @@
+::-webkit-scrollbar {
+  width: 1.6px;
+  height: 1.6px;
+  background-color:rgb(235, 235, 235); 
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color:rgb(153, 153, 153); 
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:blue;
+}
+
+.chiffres {
+  text-align: justify;
+  position: fixed;
+  bottom: 0;
+  visibility: visible;
+}
+.userInfo {
+  width: 8%;
+  text-align: justify;
+  visibility: visible;
+  margin-left: 20px;
+  font-size: 8pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  line-height: 10pt;
+  z-index: 0;
+}
+
+
+
+
+.clock {
+  visibility: hidden;
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: white;
+  width: auto;
+  height: auto;
+ line-height: 16pt;
+ padding-left: 4px;
+ padding-right: 10px;
+ 
+  margin-left: 20px;
+      z-index: 999;
+      font-size: 12pt;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+
+#tracker-container {
+  
+  line-height: 16pt;
+ 
+  
+  background-color:transparent;
+  color: black;
+  
+  
+  padding-right: 4px;
+  margin-left: 20px;
+      z-index: 0;
+      font-size: 8pt;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.t1 {
+  padding: 0 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 12pt;
+  letter-spacing: 0.1px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+  }
+  
+button{
+  background-color: white;
+  border: solid 0.5px;
+  
+  right:20px;
+  
+  
+}
+
+
+.title { 
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32pt;
+  line-height: 26pt;
+  text-transform: uppercase;
+  color: blue;
+  margin-left: 56px;
+  letter-spacing: -1.7px;
+  padding-right: 20px;
+  
+}
+a{
+  color: blue;
+  text-align: left;
+}
+a:hover{
+  color: black;
+}
+h2:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.footnote{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10pt;
+  line-height: 10pt;
+  text-align: left;
+  padding-top: 5px;
+  
+  
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4px;
+  margin-bottom: 28px;
+  text-align: left;
+  
+ }
+ .line > .footnote {
+  width: 150px; /* Adjust the width as per your requirement */
+}
+.line > .title {
+  width: 700px; /* Adjust the width as per your requirement */
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+  text-transform: uppercase;
+  width: fit-content;
+  padding-left: 10px;
+  transition: color 0.5s;
+  color: black;
+  letter-spacing: -1px;
+  transition: flex 1000ms;
+  margin-top: 4px;
+ 
+}
+h1:hover{
+  
+  transition: color 0.5s;
+}
+
+.tag1, .tag2,.tag3,.tag4,.tag5,.tag6,.tag7,.tag8,.tag9, .tag10,.tag11, .tag12,.tag13{
+  color: black;
+  transition: color 0.1s;
+  
+ 
+}
+.tag1:hover{
+  color: blue;
+}
+.tag2:hover{
+  color: blue;
+}
+.tag3:hover{
+  color: blue;
+}
+.tag4:hover{
+  color: blue;
+}
+.tag5:hover{
+  color: blue;
+}
+.tag6:hover{
+  color: blue;
+}
+.tag7:hover{
+  color: blue;
+}
+.tag8:hover{
+  color: blue;
+}
+.tag9:hover{
+  color: blue;
+}
+.tag10:hover{
+  color: blue;
+}
+.tag11:hover{
+  color: blue;
+}
+.tag12:hover{
+  color: blue;
+}
+.tag13:hover{
+  color: blue;
+}
+
+.col-inner5 img {
+margin-top: 8px;
+}
+
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 11pt;
+  letter-spacing: -0.3px;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 8px;
+  padding-top: 4px;
+}
+
+p {
+  padding: 0 !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  line-height: 14pt;
+  letter-spacing: 0.15px;
+  
+  white-space: normal;
+}
+
+.text{
+  
+ visibility: hidden;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 10px;
+}
+
+@keyframes marquee {
+  100% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.upline-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.upline {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 50s linear infinite;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.position-trbl-0 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+   
+    
+}  
+
+
+.overflow-hidden {
+   overflow: hidden;
+   padding: 0;
+   
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 100%;
+  width: auto;
+  padding: 0;
+  scrollbar-width: thin;
+  
+}
+
+.col{
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 0;
+  overflow: hidden;
+  flex: 1.7;
+  width: auto;
+}
+.col2 {
+  flex: 3;
+  height: 99vh;
+  padding:  0 0px;
+  overflow: hidden;
+ 
+  display: flex;
+flex-direction: column;
+  font-size: 20pt;
+}
+
+
+
+
+
+.col3 {
+  flex: 2;
+  height: 100%;
+  padding: 0 0px;
+  overflow: hidden;
+   z-index: 999;
+}
+
+.col4 {
+  flex: 5;
+  height: 100%;
+  
+  padding: 0 0px;
+  overflow: hidden;
+  width: max-content;
+}
+
+.col5 {
+  flex: 1;
+  height: 100%;
+  padding-right: 14px;
+
+  overflow: hidden;
+}
+.col, .col2, .col3, .col4, .col5 {
+  transition: flex 500ms;
+}
+.col-inner, .col-inner2, .col-inner3, .col-inner4, .col-inner5 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: solid 0.5px rgb(134, 134, 134);
+  border-bottom: 0px;
+  border-top: solid 0.5px rgb(134, 134, 134);
+  border-left: 0px;
+  border-right: 0px;
+  
+  
+  transition: flex 500ms;
+  overflow-y: scroll;
+  
+ 
+  
+}
+
+.col-inner {
+  
+  height: 100%;
+  position: relative; /* Set position to relative */
+  overflow-x:auto;
+  overflow-y:auto;
+  border-right: solid 0.5px rgb(164, 164, 164);
+}
+
+.col-inner3 {
+  flex: 5;
+  z-index: 999;
+  overflow-y: scroll;
+  
+  height: 100%;
+}
+ .col-inner2{
+  
+  overflow-x: none;
+  overflow-y: auto;
+  
+  display: inline-block;
+  white-space:nowrap;
+  overflow-y: scroll;
+  font-size: 0;
+ 
+  
+ }
+
+ 
+ .col-inner22{
+  height: 100%;
+  width:100%;
+  overflow-x: none;
+  overflow-y: scroll;
+  
+  display: flex;
+  flex-direction: row;
+  
+  max-width: 100%; /* Make the content 100% of the page width */
+  
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 0px;
+ 
+  
+ }
+ .col-inner2{
+  height: 100%;
+  width:100%;
+padding-right: 10px;
+margin-right: 10px;}
+ 
+
+  .overflow-auto {
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    line-height: 12pt;
+    letter-spacing: -0.1px;
+    display:inline-block;
+    padding-top: 0;
+    margin-top: 0;
+    top:0;
+    white-space: normal;
+    width: 50%;
+    padding-right: 20px;
+    position: relative;
+    vertical-align: top;
+  }
+
+  
+  .p2{
+    
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+  }
+  h3 {
+    visibility: hidden;
+    position: absolute;}
+    .textMobile{
+      visibility: hidden;
+    position: absolute;
+    }
+
+
+.menu {
+  display: none;
+}
+
+
+
+    @media (min-width:2200px) {
+      .title { 
+        font-size: 44pt;
+        line-height: 34pt;
+        letter-spacing: -1.7px;
+      }
+
+      .p1, p, .t1 {
+        
+        letter-spacing: 0.2px;
+      }
+      
+      h1 {
+        font-size: 24pt;
+      }
+    }
+
+    @media (min-width:2800px) {
+      .title { 
+        font-size: 52pt;
+        line-height: 44pt;
+        letter-spacing: -1.7px;
+      }
+
+      .p1, p, .t1 {
+        font-size: 16pt;
+        line-height: 16pt;
+        letter-spacing: 0.2px;
+      }
+      h5 {
+        font-size: 16pt;
+        line-height: 15pt;
+      }
+      h1 {
+        font-size: 32pt;
+      }
+
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1000px) {
+      ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+        background-color:rgb(235, 235, 235); 
+        
+      }
+      
+      .p1, p, .t1 {
+        font-size: 14pt;
+        line-height: 14pt;
+        letter-spacing: 0.2px;
+        margin:0;
+        padding-top: 0;
+      }
+      h5 {
+        font-size: 14pt;
+        line-height: 14pt;
+      }
+      .menu {
+        display: block;
+        
+      }
+    .position-trbl-0 {
+      
+      width: auto;
+      overflow-y: scroll;
+  }  
+
+    body{
+      width: auto;
+    height: 100%;
+    overflow-y: scroll;
+   
+    }
+  .row {
+    overflow-y: scroll;
+    width: auto;
+    height:fit-content;
+    display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  .col{
+    transition: height 0.3s ease;
+    flex:2;
+    border-right: solid 0px;
+    border-top: solid 0.5px rgb(134, 134, 134);
+    height: 6.5vh;
+    width:45%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 99999;
+    text-align: left;
+    bottom:0px;
+  }
+  .col-inner {
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+    border-right: solid 0px;
+  }
+ h1{
+  background-color: white;
+    z-index: 99999;
+    
+    padding: 0;
+    font-size: 24pt;
+ }
+  
+   
+   .col-inner22{
+    border-top: solid 0.5px rgb(134, 134, 134);
+    overflow-y: scroll;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    max-width: 100%;
+    max-height: 500px;
+   
+    
+   }
+  .col-inner2{
+    margin-right: 0;
+    padding-right: 0;
+    max-height: 500px;
+    width:100%;
+  }
+  
+  .col2{
+    flex:2;
+    height:50%;
+    width: 100%;
+  }
+  .col3{
+    flex:2;
+    width: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    
+  }
+  .col4 {
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:500px;
+  }
+  .col5{
+    flex:1;
+    height:500px;
+    padding: 0;
+  }
+  .col2, .col3, .col4, .col5 {
+    margin-bottom: 16px;
+    border-bottom: solid 0.5px rgb(134, 134, 134);
+  border-top: solid 0.5px rgb(134, 134, 134);
+  
+  }
+ 
+  .textMobile{
+    visibility: visible;
+  position: relative;
+  font-size: 24pt;
+  }
+  .text{
+    visibility: hidden;
+    position: absolute;
+  }
+ .upline{
+  text-align: justify;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+ }
+ .col-inner, .col-inner2, .col-inner3, .col-inner4, .col-inner5 {
+    padding: 0;
+    padding-left: 0px;
+    margin: 0;
+    width: 100%;
+    border-bottom: 0;
+  border-top: 0;
+  }
+  p{
+    width: auto;
+  }
+  .container-fluid{
+    padding: 0;
+    width: auto;
+  }
+  
+  .chiffres {
+  visibility: hidden;
+  }
+ .line {
+ 
+    flex-direction: column;
+  width:100%;
+ 
+  padding:0;
+ }
+  .title{
+    width:100%;
+    padding:0;
+    margin-left: 0px;
+    text-align: left; /* This should be fine for hyphenation */
+    font-size: 40pt;
+    line-height: 36pt;
+    
+  }
+  .title a {
+    /* Define styles for the anchor (link) within the title */
+    word-wrap: break-word; /* Ensure long words are broken onto the next line */
+    hyphens: auto; /* Enable automatic hyphenation */
+    -webkit-hyphens: auto; /* For older WebKit browsers */
+    -ms-hyphens: auto; /* For Internet Explorer */
+}
+.line > .title {
+  width: 100%; /* Adjust as a percentage of the parent container */
+}
+.col-inner5 img {
+  margin-top: 0px;
+  }
+  
+  .userInfo {
+    display:none;
+  }
+    }
